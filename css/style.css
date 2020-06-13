@@ -1085,3 +1085,13 @@ footer {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+.colombia{
+	font-size: 38px;
+	line-height: 44px;
+	color: #263555;
+	text-transform: uppercase;
+}
+.subTitulo{
+	color: green;
+}

@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.1.1.js"></script>
   <script src="js/superfish.js"></script>
@@ -145,6 +146,9 @@
       });
     });
   </script>
+  <style>
+    .mySlides {display:none;}
+    </style>
   <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <link rel="stylesheet" media="screen" href="css/ie.css">
@@ -185,11 +189,20 @@
           <img src="images/titulo.png" alt="" >
         </div>
         
-        <h4>CONOCEREMOS UN PAÍS América del Sur.
+        <h4>CONOCEREMOS UN PAÍS de
           América del Sur, es el subcontinente austral de América, aunque en ocasiones también se le considera como un
           continente independiente. Una de sus principales características es que casi todo su territorio está debajo de
           la línea ecuatorial, siendo casi todos los estados sudamericanos del hemisferio sur.
         </h4>
+        <div class="colombia"> Colombia</div>
+       <h4> Colombia es un país situado al noroeste de América del Sur. Se caracteriza no solo por su diversidad natural, sino
+        también por sus recursos naturales, geografía, y su multiculturalidad, en su cultura se encuentran representadas en los
+        muchos dialectos, bailes, colores, sonidos y sabores. La mayor parte del territorio está completamente en la zona
+        intertropical, los climas de las diferentes regiones varían considerablemente gracias a las diferentes altitudes que
+        pueden ir desde el nivel del mar
+        <div class="subTitulo">Atrévete a conocer el país más feliz del mundo.</div> 
+      </h4>
+
       </div>
 
     </div>
@@ -411,7 +424,7 @@
 
       <br><br><br><br><br><br><br><br><br>
       <div class="grid_4">
-        <div class="newsletter_title">Algo </div>
+        <div class="newsletter_title"> Informaci&oacute;n adicional </div>
         <div class="n_container">
           <form id="newsletter" action="#">
             <div class="clear"></div>
@@ -471,33 +484,43 @@
 
             </li>
             <li><b>METODOS DE PAGO</b> <a id="mas6" onclick="vermas6('mas6')" style="color: blue;"> [ver m&aacute;s]</a>
-              <p id="desplegar6" style="display:none;">
+              <div id="desplegar6" style="display:none;">
                 Contamos con diferentes medios de pago: <br>
                 •	Tarjetas de crédito (se puede ir hasta 24 meses sin intereses) <br> 
-                •	Tarjetas de débito   <br>    
+                •	Tarjetas de débito <br> <br>    
+                <table>
+                  <tr>
+                    <td> <img src="images/visa.png" alt="" width="85"></td>
+                    <td><img src="images/tarjeta.png" alt="" width="80"></td>
+                  </tr>
+                </table>
                 <a id="mas1" onclick="vermas6('menos')" style="color: blue;">[ver menos]</a>           
-              </p>
+              </div>
 
             </li>
             <li><b>DOCUMENTACIÓN</b> <a id="mas7" onclick="vermas7('mas7')" style="color: blue;"> [ver m&aacute;s]</a>
-              <p id="desplegar7" style="display:none;">
+              <div id="desplegar7" style="display:none;">
                 Documento de identificación: <br>
                 • Si son de un país perteneciente al Mercosur (Argentina, Brasil, Bolivia, Chile, Ecuador, Paraguay, Perú y Uruguay), pueden ingresar solamente con el DNI o pasaporte vigente y en buen estado. <br>
                 •	Los ciudadanos de otras nacionalidades deben ingresar a Colombia exclusivamente con pasaporte. <br>
                 •	Visa de Turismo: Solo es necesaria según el país de procedencia. Los ciudadanos de algunas nacionalidades requieren tramitar visa de turismo para ingresar a Colombia, estando excluidos de este requerimiento la mayoría de los países del continente americano y europeo.
-              <br>  <a id="mas1" onclick="vermas7('menos')" style="color: blue;">[ver menos]</a>
-              </p>
+              <br> 
+              <img src="images/documentacion.jpg" alt="" width="150"> <br>
+               <a id="mas1" onclick="vermas7('menos')" style="color: blue;">[ver menos]</a>
+              </div>
 
             </li>
             <li><b>AVISO IMPORTANTE</b> <a id="mas8" onclick="vermas8('mas8')" style="color: blue;"> [ver m&aacute;s]</a>
               <p id="desplegar8" style="display:none;">
                 Es importante mencionar que, al animarse a vivir esta gran experiencia, saliendo del aeropuerto, ya estará la persona encargada de dar esta gran ruta, durante 4 días. El cual se encargará de trasladarlos a su primer destino con un aproximadamente un traslado de 30 min.
-                <br> <a id="mas1" onclick="vermas8('menos')" style="color: blue;">[ver menos]</a>
+                <br> <img src="images/importante.jpg" alt="" width="150"> <br>
+                <a id="mas1" onclick="vermas8('menos')" style="color: blue;">[ver menos]</a>
               </p>
               </li>
             <li><b>TRANSPORTE </b><a id="mas9" onclick="vermas9('mas9')" style="color: blue;"> [ver m&aacute;s]</a>
               <p id="desplegar9" style="display:none;">
                 CARRO <br>
+                <img src="images/carro.jpg" alt="" width="150"> <br>
                 TODOS LOS DOCUMENTOS DEL CARRO ESTAN EN ORDEN Y AL CORRIENTE Y SE ENCUENTRAN EN LA GUANTERA DEL CARRO. <br>
                 DOCUMENTOS: <br>
                 •	LICENCIA DE CONDUCIR <br>
@@ -510,24 +533,69 @@
               </p>
               </li>
             <li><b>TIPS</b> <a id="mas10" onclick="vermas10('mas10')" style="color: blue;"> [ver m&aacute;s]</a>
-              <p id="desplegar10" style="display:none;">
+              <div id="desplegar10" style="display:none;">
                 •	Ropa de otoño <br>
                 •	Ropa de acuerdo con la actividad que se realice <br> 
                 •	Disfrutar de la gastronomía <br>
                 •	No llevar cosas de valor a la mano <br>
                 •	Hablar español o castellano <br>
                 •	Perder el miedo a las alturas <br>
-                •	Tomar fotos para recuerdos <br>
+                •	Tomar fotos para recuerdos <br> <br>
+                <table>
+                  <tr>
+                    <td> <img src="images/tip1.jpg" alt="" width="80"> </td>
+                    <td> <img src="images/tip2.jpg" alt="" width="90"> </td>
+                    <td> <img src="images/tip3.jpg" alt="" width="40"> </td>
+                  </tr>
+                </table>
                 <a id="mas1" onclick="vermas10('menos')" style="color: blue;">[ver menos]</a>
-              </p>
+              </div>
 
             </li>
           </ul>
         </div>
       </div>
       <div class="clear"></div>
+      <h2 class="w3-center">Hospedajes, Restaurantes y Actividades</h2>
+      <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="images/a1.jpg" style="width:100%">
+        <img class="mySlides" src="images/a2.jpg" style="width:100%">
+        <img class="mySlides" src="images/a3.jpg" style="width:100%">
+        <img class="mySlides" src="images/a4.jpg" style="width:100%">
+        <img class="mySlides" src="images/a5.jpg" style="width:100%">
+        <img class="mySlides" src="images/a6.jpg" style="width:100%">
+        <img class="mySlides" src="images/a7.jpg" style="width:100%">
+        <img class="mySlides" src="images/a8.jpg" style="width:100%">
+        <img class="mySlides" src="images/a9.jpg" style="width:100%">
+        <img class="mySlides" src="images/a10.jpg" style="width:100%">
+        <img class="mySlides" src="images/a11.jpg" style="width:100%">
+      </div>
     </div>
+    
   </div>
+  <br><br><br>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+  
+
+
+
+
   <div class="bottom_block">
     <div class="container_12">
       <div class="grid_2 prefix_2">
